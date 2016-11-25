@@ -1,0 +1,116 @@
+* {
+	color: black;
+	
+	
+
+}
+
+body {
+	background-color: aqua;
+	
+}
+
+p#drugi::before {
+	content: "Akademia 108";
+	color: red;	
+}
+
+p::first-letter {
+	color: green;
+}
+
+a {
+	color: lime;
+	
+}
+
+a:hover {
+	color: aqua;
+}
+
+a:active {
+	color:yellow;
+}
+
+a:visited {
+	color:brown;
+}
+
+input:focus {
+	background-color: aqua;
+}
+
+div#nasz_div div:nth-child(2n+3) {
+	color:midnightblue;
+}
+
+a[title]{
+	background-color: bisque;
+	
+}
+
+a[title="tytul"] {
+	background-color: orange;
+}
+
+a[title$="SEO"]{
+	background-color: black;
+
+}
+
+p:last-child {
+	
+	clear: both;
+}
+
+img {
+	width: 50px;
+	float:left;
+}
+
+img {
+	float:none;
+}
+
+#square {
+	width: 100px;
+	height: 100px;
+	
+	background-color: aqua;
+	margin-top:300px;
+}
+
+#square:hover {
+	width:200px;
+	height:200px;
+	background-color: red;
+	
+	transition: background-color 2s ease-in 1s;
+	transition: width 2s ease-in 2s;
+	-webkit-transition: width 2s ease-in 2s;
+	transition: width 2s ease-in 2s;
+	
+	
+	
+	transition: height 2s ease-in 3s;
+	
+	
+}
+
+.bg_overflow {
+	width:200px;
+	height: 200px;
+	border: 10px solid orange;
+	background-color: aqua;
+}
+
+.bg_flow {
+	box-sizing: border-box;
+}
+
+@media (min-width: 640px) and (max-width:479) {
+	body {
+		font-size: 20px;
+	}
+}
+
